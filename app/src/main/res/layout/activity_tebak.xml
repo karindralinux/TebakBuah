@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="id.firodev.tebakbuah.TebakActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView_tebak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alpukat"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+
+        <EditText
+            android:id="@+id/editText_jawab"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:padding="4dp"/>
+
+        <Button
+            android:id="@+id/buttonCek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cek"
+            android:textAllCaps="true"
+            android:layout_weight="3"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/white"
+            android:layout_marginLeft="12dp"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
